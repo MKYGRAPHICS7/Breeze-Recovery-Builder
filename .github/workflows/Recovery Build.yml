@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/TeamWin/android_device_asus_I003D
+        default: https://github.com/twrpdtgen/android_device_xiaomi_breeze/tree/breeze-user-12-SKQ1.231127.001-V816.0.10.0.UNUINXM-release-keys
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
@@ -26,7 +26,7 @@ on:
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/asus/I003D
+        default: device/Xioami/Breeze
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
