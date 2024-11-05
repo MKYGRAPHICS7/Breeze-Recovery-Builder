@@ -84,11 +84,11 @@ Supports TWRP, OrangeFox, PBRP & SHRP compilation and production
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
 | `MANIFEST_BRANCH` | Source branch | 12.1 |
-| `DEVICE_TREE_URL` | Device tree address | https://github.com/TeamWin/android_device_asus_I003D |
+| `DEVICE_TREE_URL` | Device tree address | [https://github.com/twrpdtgen/android_device_xiaomi_breeze/tree/breeze-user-12-SKQ1.231127.001-V816.0.10.0.UNUINXM-release-keys]|
 | `DEVICE_TREE_BRANCH` | Device branch that you want to use for build (typically corresponds to the manifest branch) | android-12.1 |
 | `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/asus/I003D |
-| `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | I003D |
-| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_I003D
+| `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | BREEZE |
+| `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_BREEZE
 | `REPOPICK_PATCHES` | (Optional) Gerrit patches to include in build (space separated) - if you don't know what this means, then leave blank | 1245 1437 |
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | recovery |
 | `RECOVERY_INSTALLER` | Include recovery installer zip | no |
