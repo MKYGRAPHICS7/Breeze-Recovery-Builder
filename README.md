@@ -89,7 +89,7 @@ Supports TWRP, OrangeFox, PBRP & SHRP compilation and production
 | `DEVICE_PATH` | Device tree location for syncing, relative to workspace root (usually listed as "LOCAL_PATH" or "DEVICE_PATH" in BoardConfig.mk) | device/Xioami/Breeze |
 | `DEVICE_NAME` | Model name (same as twrp_`<DEVICE_NAME>`.mk from device tree) | BREEZE |
 | `DEVICE_MAKEFILE` | Name of device-specific makefile from tree (format: `<PREFIX>_<DEVICE_NAME>`) | twrp_BREEZE
-| `REPOPICK_PATCHES` | (Optional) Gerrit patches to include in build (space separated) - if you don't know what this means, then leave blank | 1245 1437 |
+| `REPOPICK_PATCHES` | (Optional) Gerrit patches to include in build (space separated) - if you don't know what this means, then leave blank |  |
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendor_boot) | recovery |
 | `RECOVERY_INSTALLER` | Include recovery installer zip | no |
 | `OPTIONAL_FLAGS` | Additional/custom build commands should be entered here | export FOX_VIRTUAL_AB_DEVICE=1 |
